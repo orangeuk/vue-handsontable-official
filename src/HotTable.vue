@@ -17,6 +17,11 @@
   export default {
     name: 'HotTable',
     props: propFactory(),
+    data: function() {
+      return {
+        instance: Handsontable
+      }
+    },
     watch: propWatchFactory(updateHotSettings, updateBulkHotSettings),
     mounted: function() { return hotInit(this); },
     beforeDestroy: function() { return hotDestroy(this); },
