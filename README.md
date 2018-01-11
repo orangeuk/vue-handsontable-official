@@ -1,4 +1,4 @@
-# vue-handsontable-official  [![Build Status](https://travis-ci.org/handsontable/vue-handsontable-official.png?branch=master)](https://travis-ci.org/handsontable/vue-handsontable-official)
+#1 vue-handsontable-official  [![Build Status](https://travis-ci.org/handsontable/vue-handsontable-official.png?branch=master)](https://travis-ci.org/handsontable/vue-handsontable-official)
 A Vue.js wrapper for the the [Handsontable](https://github.com/handsontable/handsontable) spreadsheet component.
 
 ## Table of contents

@@ -29,5 +29,5 @@
 </script>
 
 <style>
-  @import "~handsontable/dist/handsontable.full.css";
+  @import "handsontable/dist/handsontable.full.css";
 </style>
