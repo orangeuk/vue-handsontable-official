@@ -1,9 +1,9 @@
 <template>
-  <div :id="this.root"></div>
+  <div class="ht-wrapper" :id="this.root"></div>
 </template>
 
 <script>
-  import Handsontable from 'handsontable';
+  import Handsontable from '../dist/handsontable.full';
   import SettingsMapper from './settingsMapper';
   import {
     hotInit,
@@ -17,6 +17,7 @@
   export default {
     name: 'HotTable',
     props: propFactory(),
+    props: propFactory(),
     data: function() {
       return {
         instance: Handsontable
@@ -29,5 +30,6 @@
 </script>
 
 <style>
-  @import "handsontable/dist/handsontable.full.css";
+  @import "../dist/handsontable.full.css";
+  @import "../dist/main.css";
 </style>
