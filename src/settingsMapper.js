@@ -1,4 +1,4 @@
-import Handsontable from 'handsontable';
+import Handsontable from '../dist/handsontable.full';
 
 export default class SettingsMapper {
   constructor() {

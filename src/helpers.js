@@ -1,4 +1,4 @@
-import Handsontable from 'handsontable';
+import Handsontable from '../dist/handsontable.full';
 import SettingsMapper from './settingsMapper';
 
 /**
