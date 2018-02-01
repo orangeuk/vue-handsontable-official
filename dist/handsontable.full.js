@@ -21,7 +21,7 @@
  * UNINTERRUPTED OR ERROR FREE.
  * 
  * Version: 1.15.1
- * Release date: 25/01/2018 (built at 25/01/2018 10:21:21)
+ * Release date: 25/01/2018 (built at 01/02/2018 16:53:29)
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -54910,7 +54910,7 @@ Handsontable.DefaultSettings = _defaultSettings2.default;
 Handsontable.EventManager = _eventManager2.default;
 Handsontable._getListenersCounter = _eventManager.getListenersCounter; // For MemoryLeak tests
 
-Handsontable.buildDate = '25/01/2018 10:21:21';
+Handsontable.buildDate = '01/02/2018 16:53:29';
 Handsontable.packageName = 'handsontable-pro';
 Handsontable.version = '1.15.1';
 
