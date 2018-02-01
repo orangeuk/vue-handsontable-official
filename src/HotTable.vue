@@ -30,4 +30,5 @@
 
 <style>
   @import "../dist/handsontable.full.css";
+  @import "../dist/main.css";
 </style>
