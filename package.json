@@ -15,7 +15,7 @@
     "rimraf": "^2.5.4"
   },
   "peerDependencies": {
-    "handsontable": "^0.35.1"
+    
   },
   "scripts": {
     "test": "npm run _pre-testing && jest",
