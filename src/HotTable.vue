@@ -1,9 +1,9 @@
 <template>
-  <div class="ht-wrapper" :id="this.root"></div>
+  <div :id="this.root"></div>
 </template>
 
 <script>
-  import Handsontable from '../dist/handsontable.full';
+  import Handsontable from 'handsontable';
   import SettingsMapper from './settingsMapper';
   import {
     hotInit,
@@ -15,21 +15,19 @@
   } from './helpers';
 
   export default {
-    name: 'HotTable',
-    props: propFactory(),
-    props: propFactory(),
     data: function() {
       return {
         instance: Handsontable
       }
     },
-    watch: propWatchFactory(updateHotSettings, updateBulkHotSettings),
-    mounted: function() { return hotInit(this); },
-    beforeDestroy: function() { return hotDestroy(this); },
+    name: 'HotTable',
+    props: propFactory.call(this),
+    watch: propWatchFactory.call(this, updateHotSettings, updateBulkHotSettings),
+    mounted: function() { return hotInit.call(this); },
+    beforeDestroy: function() { return hotDestroy.call(this); },
   };
 </script>
 
 <style>
-  @import "../dist/handsontable.full.css";
-
+  @import "~handsontable/dist/handsontable.full.css";
 </style>
